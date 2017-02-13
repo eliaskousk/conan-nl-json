@@ -11,7 +11,7 @@ class DefaultNameConan(ConanFile):
     version = "0.1"
     settings = "os", "compiler", "arch", "build_type"
     generators = "cmake"
-    requires = "nl-json/2.0.9@%s/%s" % (username, channel)
+    requires = "nl-json/2.1.0@%s/%s" % (username, channel)
 
     def build(self):
         cmake = CMake(self.settings)

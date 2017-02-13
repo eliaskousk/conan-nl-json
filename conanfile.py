@@ -4,7 +4,7 @@ from conans.tools import download, unzip
 
 class NLJsonConan(ConanFile):
     name = "nl-json"
-    version = "2.0.9"
+    version = "2.1.0"
     url = "https://github.com/eliaskousk/conan-nl-json.git"
     license = "MIT"
     author = "Elias K."

@@ -6,7 +6,7 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_UPLOAD: 1
-    CONAN_REFERENCE: "nl-json/2.1.0"
+    CONAN_REFERENCE: "nl-json/2.1.1"
     CONAN_USERNAME: "eliaskousk"
     CONAN_CHANNEL: "stable"
     CONAN_TOTAL_PAGES: 4
